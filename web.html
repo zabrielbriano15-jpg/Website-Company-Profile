@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev Solutions - Jasa Pembuatan Website Profesional</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="loader-dot"></div>
+            <div class="loader-dot"></div>
+            <div class="loader-dot"></div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top-btn">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Floating Elements (Simplified) -->
+    <div class="floating-elements">
+        <div class="float-shape shape-1"></div>
+        <div class="float-shape shape-2"></div>
+        <div class="float-shape shape-3"></div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <i class="fas fa-code"></i>
+                    <span>CreateWeb Indonesia</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Beranda</a></li>
+                    <li><a href="#about" class="nav-link">Tentang Kami</a></li>
+                    <li><a href="#services" class="nav-link">Layanan</a></li>
+                    <li><a href="#owner" class="nav-link">Profil Owner</a></li>
+                    <li><a href="#contact" class="nav-link">Kontak</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="hamburger-line line-1"></div>
+                    <div class="hamburger-line line-2"></div>
+                    <div class="hamburger-line line-3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="fade-in-up">Transformasi Digital untuk <span class="highlight-text">Bisnis Anda</span></h1>
+                <p class="fade-in-up delay-1">Kami menyediakan jasa pembuatan website profesional dengan desain modern dan responsif untuk membantu bisnis Anda tumbuh di era digital.</p>
+                <div class="hero-buttons fade-in-up delay-2">
+                    <a href="#contact" class="cta-button">Hubungi Kami Sekarang</a>
+                    <a href="#services" class="cta-button secondary-button">Lihat Layanan</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1558655146-364adaf1fcc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Website Development" class="hero-img">
+                    <div class="feature-badge badge-1">
+                        <i class="fas fa-rocket"></i>
+                        <span>Website Cepat</span>
+                    </div>
+                    <div class="feature-badge badge-2">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Responsif</span>
+                    </div>
+                    <div class="feature-badge badge-3">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Aman</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="counter" data-target="5">0</h3>
+                        <p>Proyek Selesai</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="counter" data-target="5">0</h3>
+                        <p>Klien Puas</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="counter" data-target="120">0</h3>
+                        <p>Jam Pengembangan</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="counter" data-target="7">0</h3>
+                        <p>Penghargaan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="fade-in-up">Tentang Perusahaan</h2>
+                <p class="fade-in-up delay-1">WebDev Solutions adalah perusahaan yang berfokus pada pengembangan solusi digital untuk membantu bisnis Anda berkembang di dunia online.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 class="fade-in-left">Mengapa Memilih Kami?</h3>
+                    <p class="fade-in-left delay-1">Didirikan pada tahun 2024, WebDev Solutions telah membantu lebih dari 100 klien dalam mengembangkan kehadiran online mereka. Kami percaya bahwa setiap bisnis unik dan membutuhkan solusi yang disesuaikan dengan kebutuhan spesifik mereka.</p>
+                    <p class="fade-in-left delay-2">Tim kami terdiri dari developer, designer, dan digital marketer yang berpengalaman dalam menciptakan website yang tidak hanya menarik secara visual tetapi juga fungsional dan mudah dikelola.</p>
+                    <p class="fade-in-left delay-3">Kami berkomitmen untuk memberikan hasil terbaik dengan teknologi terkini, desain yang responsif, dan pengalaman pengguna yang optimal di semua perangkat.</p>
+                    
+                    <div class="features-list">
+                        <div class="feature-item fade-in-left delay-1">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Desain Modern & Responsif</span>
+                        </div>
+                        <div class="feature-item fade-in-left delay-2">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Support 24/7</span>
+                        </div>
+                        <div class="feature-item fade-in-left delay-3">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Harga Terjangkau</span>
+                        </div>
+                        <div class="feature-item fade-in-left delay-4">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Garansi 1 Tahun</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image fade-in-right">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Tim WebDev Solutions" class="about-img">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <h4>Tim Profesional</h4>
+                                <p>Developer & Designer Berpengalaman</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="fade-in-up">Layanan Kami</h2>
+                <p class="fade-in-up delay-1">Kami menawarkan berbagai solusi digital untuk memenuhi kebutuhan online bisnis Anda</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <h3>Website Perusahaan</h3>
+                    <p>Desain website perusahaan yang profesional untuk memperkenalkan bisnis Anda secara online dengan portofolio dan informasi lengkap.</p>
+                    <a href="#contact" class="service-link">Pesan Sekarang <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                    <h3>Toko Online (E-commerce)</h3>
+                    <p>Bangun toko online yang lengkap dengan sistem pembayaran, manajemen produk, dan dashboard admin yang mudah digunakan.</p>
+                    <a href="#contact" class="service-link">Pesan Sekarang <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <h3>Website Responsif</h3>
+                    <p>Website yang dapat menyesuaikan tampilan di semua perangkat, dari desktop, tablet, hingga smartphone.</p>
+                    <a href="#contact" class="service-link">Pesan Sekarang <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                    <h3>SEO Optimization</h3>
+                    <p>Optimasi website untuk mesin pencari (SEO) agar website Anda mudah ditemukan di Google dan meningkatkan traffic organik.</p>
+                    <a href="#contact" class="service-link">Pesan Sekarang <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                    </div>
+                    <h3>Maintenance & Support</h3>
+                    <p>Layanan pemeliharaan dan dukungan teknis untuk menjaga website Anda tetap berjalan dengan optimal dan aman.</p>
+                    <a href="#contact" class="service-link">Pesan Sekarang <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                    </div>
+                    <h3>Redesign Website</h3>
+                    <p>Perbarui tampilan website lama Anda dengan desain modern yang lebih menarik dan fungsional.</p>
+                    <a href="#contact" class="service-link">Pesan Sekarang <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="fade-in-up">Proses Pengerjaan</h2>
+                <p class="fade-in-up delay-1">Kami bekerja dengan proses yang terstruktur untuk memastikan hasil terbaik</p>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Konsultasi</h3>
+                        <p>Diskusikan kebutuhan dan tujuan website Anda dengan tim kami</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Perencanaan</h3>
+                        <p>Membuat wireframe dan struktur website sesuai kebutuhan</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Desain</h3>
+                        <p>Membuat desain UI/UX yang menarik dan user-friendly</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Pengembangan</h3>
+                        <p>Proses coding dan implementasi semua fitur website</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <h3>Testing</h3>
+                        <p>Uji coba menyeluruh untuk memastikan website berjalan optimal</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">06</div>
+                    <div class="step-content">
+                        <h3>Launch</h3>
+                        <p>Website siap diluncurkan dan digunakan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Owner Section -->
+    <section class="owner-section" id="owner">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="fade-in-up">Profil Owner</h2>
+                <p class="fade-in-up delay-1">Kenali lebih dekat pendiri dan pemilik WebDev Solutions</p>
+            </div>
+            <div class="owner-content">
+                <div class="owner-image fade-in-left">
+                    <div class="owner-image-wrapper">
+                        <img src="images/owner.jpg" alt="Owner WebDev Solutions" class="owner-img">
+                        <div class="owner-social">
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="owner-info">
+                    <h3 class="fade-in-up">Zabriel Briano</h3>
+                    <div class="owner-title fade-in-up delay-1">Founder & CEO CreateWeb Indonesia</div>
+                    <p class="fade-in-up delay-2">Sejak tahun 2024, saya telah berkecimpung di dunia web development dengan pengalaman mengerjakan berbagai proyek website untuk perusahaan lokal maupun internasional. Latar belakang saya sebagai Full Stack Developer membantu saya memahami kebutuhan teknis dan bisnis dari setiap klien.</p>
+                    <p class="fade-in-up delay-3">Saya memulai WebDev Solutions dengan misi sederhana: membantu bisnis Indonesia berkembang melalui solusi digital yang efektif dan terjangkau. Saya percaya bahwa di era digital ini, setiap bisnis berhak memiliki website yang berkualitas tanpa harus mengeluarkan biaya yang mahal.</p>
+                    
+                    <div class="owner-skills">
+                        <div class="skill-item fade-in-up delay-1">
+                            <div class="skill-name">Web Development</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item fade-in-up delay-2">
+                            <div class="skill-name">UI/UX Design</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item fade-in-up delay-3">
+                            <div class="skill-name">Digital Marketing</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="owner-quote fade-in-up">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Teknologi hanyalah alat, tetapi di tangan yang tepat, ia bisa menjadi katalis untuk pertumbuhan bisnis yang luar biasa."</p>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="fade-in-up">Testimoni Klien</h2>
+                <p class="fade-in-up delay-1">Apa kata klien yang telah menggunakan jasa kami</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>"WebDev Solutions membantu perusahaan saya memiliki website yang profesional. Hasilnya luar biasa dan sesuai ekspektasi!"</p>
+                        <i class="fas fa-quote-right quote-icon"></i>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1507591064344-4c6ce005-128?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Client">
+                        <div class="author-info">
+                            <h4>Budi Santoso</h4>
+                            <p>CEO TechVision Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>"Pelayanan sangat memuaskan, website toko online saya meningkat penjualannya 300% setelah menggunakan jasa mereka."</p>
+                        <i class="fas fa-quote-right quote-icon"></i>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Client">
+                        <div class="author-info">
+                            <h4>Sari Dewi</h4>
+                            <p>Owner FashionStoreID</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>"Tim yang profesional dan responsif. Website perusahaan saya sekarang lebih modern dan menarik banyak klien baru."</p>
+                        <i class="fas fa-quote-right quote-icon"></i>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Client">
+                        <div class="author-info">
+                            <h4>Andi Wijaya</h4>
+                            <p>Direktur Prima Consultant</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="fade-in-up">Hubungi Kami</h2>
+                <p class="fade-in-up delay-1">Mari diskusikan kebutuhan website Anda dan dapatkan solusi terbaik untuk bisnis Anda</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item fade-in-left">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Lokasi Kantor</h4>
+                            <p>Jl. Bogangin Baru Blok A No. 2, Jawa Timur, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item fade-in-left delay-1">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Telepon</h4>
+                            <p>+62 896 7693 4455</p>
+                        </div>
+                    </div>
+                    <div class="contact-item fade-in-left delay-2">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>zabrielbriano15@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item fade-in-left delay-3">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Jam Operasional</h4>
+                            <p>Senin - Jumat: 08:00 - 21:00 WIB</p>
+                            <p>Sabtu: 08:00 - 15:00 WIB</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form fade-in-right">
+                    <h3>Kirim Pesan</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Nomor Telepon</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Jenis Layanan yang Dibutuhkan</label>
+                            <select id="service">
+                                <option value="">Pilih Layanan</option>
+                                <option value="company">Website Perusahaan</option>
+                                <option value="ecommerce">Toko Online (E-commerce)</option>
+                                <option value="responsive">Website Responsif</option>
+                                <option value="seo">SEO Optimization</option>
+                                <option value="maintenance">Maintenance & Support</option>
+                                <option value="redesign">Redesign Website</option>
+                                <option value="other">Lainnya</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button submit-btn">
+                            <span>Kirim Pesan</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">WebDev Solutions</div>
+                    <p>Kami adalah perusahaan pengembang website profesional yang berkomitmen untuk memberikan solusi digital terbaik untuk pertumbuhan bisnis Anda di era digital.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Layanan</h4>
+                    <ul>
+                        <li><a href="#services">Website Perusahaan</a></li>
+                        <li><a href="#services">Toko Online (E-commerce)</a></li>
+                        <li><a href="#services">Website Responsif</a></li>
+                        <li><a href="#services">SEO Optimization</a></li>
+                        <li><a href="#services">Maintenance & Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#services">Layanan</a></li>
+                        <li><a href="#owner">Profil Owner</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Dapatkan tips dan informasi terbaru tentang web development</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email Anda" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 RelDev. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
